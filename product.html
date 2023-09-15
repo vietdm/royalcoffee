@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Royal Coffee</title>
+	<link rel="shortcut icon" href="images/icon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Kanit|Poppins|Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+	<link rel="stylesheet" href="css/custome-boostrap.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/product.css">
+	<link rel="stylesheet" href="css/media-product.css">
+</head>
+<body>
+	
+	<div class="preload">
+		<div class="center--body">
+		    <div class="--preload">
+		        <div class="box">
+		            <div></div>
+		            <div></div>
+		            <div></div>
+		            <div></div>
+		        </div>
+		        <div class="box">
+		            <div></div>
+		            <div></div>
+		            <div></div>
+		            <div></div>
+		        </div>
+		        <div class="box">
+		            <div></div>
+		            <div></div>
+		            <div></div>
+		            <div></div>
+		        </div>
+		        <div class="box">
+		            <div></div>
+		            <div></div>
+		            <div></div>
+		            <div></div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+	<header>
+		<div class="top-header container-fluid">
+			<div class="row">
+				<div class="col-5 col-sm-4 col-md-3 text-center logo"><a href=""><img src="images/logo.png" alt="Logo"></a></div>
+				<div class="col-lg-9 text-right pr-5 navbar">
+					<div class="d-lg-none close-icon"><span></span></div>
+					<div class="menu">
+						<ul>
+							<li class="d-lg-none"><a href=""><img src="images/logo.png" alt="Logo"></a></li>
+							<!-- <li class="pt-3 pb-3 text-center d-lg-none">
+								<div class="control">
+									<div class="cart">
+										<i class="fa fa-shopping-cart"></i>
+										<span>0</span>
+									</div>
+									<div class="search">
+										<i class="fa fa-search"></i>
+									</div>
+								</div>
+							</li> -->
+							<li><a href="./">Home</a></li>
+							<li><a href="./product.html">Products</a></li>
+							<li><a href="./news.html">News</a></li>
+							<li><a href="./detail.html">Gallery</a></li>
+							<li><a href="./contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<div class="d-none d-lg-block control">
+						<div class="cart">
+							<i class="fa fa-shopping-cart"></i>
+							<span>0</span>
+						</div>
+						<div class="search">
+							<i class="fa fa-search"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-7 col-sm-8 col-md-9 d-flex d-lg-none justify-content-end align-items-center icon-menu-mobile">
+					<div><i class="fa fa-bars"></i></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="title">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2>Product</h2>
+						<div class="title--breakcrump">
+							<ol>
+								<li><a href="">RoyalCoffee</a></li>
+								<li>Product</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="product">
+			<div class="container">
+				<div class="row d-lg-none product--left-menu">
+					<div class="arrow-right show-menu-product--left"></div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-lg-3 product--left">
+						<div class="row d-flex d-lg-none justify-content-end mb-3">
+							<i class="fa fa-arrow-right close-icon" style="font-size: 22px; padding: 5px 12px"></i>
+						</div>
+						<div class="row pb-5 --cart">
+							<div class="col-12">
+								<h2>Cart</h2>
+								<div class="area-cart">	</div>
+							</div>
+						</div>
+						<div class="row pb-5 cartegories">
+							<div class="col-12">
+								<h2>Categories</h2>
+								<ul>
+									<li><a href="">Coffee</a></li>
+									<li><a href="">Green coffee</a></li>
+									<li><a href="">Italian</a></li>
+									<li><a href="">Roasted coffee</a></li>
+									<li><a href="">Uncategorized</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row pb-5 filter">
+							<div class="col-12">
+								<h2 class="text-left">Filter by price</h2>
+								<div class="filter--range">
+									<div class="price-range-block">
+									  	<div id="slider-range" class="price-filter-range" name="rangeInput"></div>
+									</div>
+								</div>
+								<div class="price pb-4 font-weight-bold">Price: $<span id="min_price">4</span> - $<span id="max_price" >25</span></div>
+								<div class="filter--submit">Filter</div>
+							</div>
+						</div>
+						<div class="row pb-5 tags">
+							<div class="col-12">
+								<h2>Tags</h2>
+								<ul>
+									<li><a href="">accessory</a></li>
+									<li><a href="">arabica</a></li>
+									<li><a href="">bean</a></li>
+									<li><a href="">candy</a></li>
+									<li><a href="">cup</a></li>
+									<li><a href="">ephiopian</a></li>
+									<li><a href="">latte</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-9 pl-5 product--right">
+						<div class="row">
+							<div class="col-12 col-sm-6 mb-3 mt-2">Showing <strong class="lengthProduct"></strong> results</div>
+							<div class="col-12 col-sm-6 mb-3 text-right">
+								<select name="" id="" class="product--right-sort">
+									<option value="default" selected="selected">Default sorting</option>
+									<option value="name">Sort by name</option>
+									<option value="price-minmax">Sort by price: low to high</option>
+									<option value="price-maxmin">Sort by price: high to low</option>
+								</select>
+							</div>
+						</div>
+						<div class="row pt-3 pb-3 --area-product">
+							<!-- Import by JS -->
+							<!-- Demo code -->
+							<!-- <div class="col-12 col-sm-6 col-lg-4">
+								<div class="product--box">
+									<a href="">
+										<img src="images/product/coffee_item1-300x300.jpg" alt="">
+										<h4>Accessory</h4>
+									</a>
+									<p class="text-center">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum quis, eleifend vitae velit.</p>
+									<div class="produc--box-price">$4.66</div>
+									<div class="product--box-submit">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Add to cart</span>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+		<footer>
+		<div class="bg-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-4 col-num-1">
+						<a href="./"><img src="images/logo.png" alt="Logo"></a>
+						<h6>Mang lại cho bạn nhiều cung bậc cảm súc và hòa quyện mình vào không gian yên lãng của RoyalCoffee</h6>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 col-num-2">
+						<h2>EXPLORE</h2>
+						<div class="row">
+							<div class="col-6">
+								<ul>
+									<li><a href="./">Home</a></li>
+									<li><a href="./contact.html">Contact Us</a></li>
+									<li><a href="./product.html">Products</a></li>
+								</ul>
+							</div>
+							<div class="col-6">
+								<ul>
+									<li><a href="./news.html">Blog</a></li>
+									<li><a href="">About Us</a></li>
+									<li><a href="./product.html">Gallery</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 col-num-3">
+						<h2>Contact Us</h2>
+						<ul>
+							<li><i class="fa fa-phone"></i>19001515</li>
+							<li><i class="fa fa-envelope"></i>support@royalcoffee.com</li>
+							<li><i class="fa fa-facebook"></i>Royal Coffee</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<img src="images/backtotop.png" alt="Gotop" class="go-top">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+	<script src="js/function.js"></script>
+	<script src="js/product.js"></script>
+
+</body>
+</html>
